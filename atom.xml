@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>r140</title>
+  <title>r14o</title>
   
   <link href="/atom.xml" rel="self"/>
   
@@ -19,7 +19,7 @@
     <title>今年暑假做了什么</title>
     <link href="https://rogers140.github.io/2014/09/05/summer-summery/"/>
     <id>https://rogers140.github.io/2014/09/05/summer-summery/</id>
-    <published>2014-09-05T04:00:00.000Z</published>
+    <published>2014-09-05T07:00:00.000Z</published>
     <updated>2016-10-06T15:32:26.000Z</updated>
     
     <content type="html"><![CDATA[<p>学校毕业手续一办完，就和小水还有逼圣去台湾和香港浪了15天，就作为毕业旅行了。回家之后又各种应酬请客吃饭联络感情花了一周左右，所以其实我的暑假真正开始的时间应该是7月20号左右。当时的想法就是这段时间想再提升一下自己的代码能力，加深对数据结构和算法的理解，为了10月的job fair的实习做一点准备，顺便折腾一下新学校那边的一些杂七杂八的事情。突然又想到本科期间买了好多技术书籍都没认真看过，放家里等于是扔了，未免可惜，带过去又太重，而且在那边也不一定会看的！那只好先看完咯……<br>于是我就照着这个思路做了，昨天算是完成了全部安排：</p>
@@ -51,11 +51,11 @@
   </entry>
   
   <entry>
-    <title>《C++ Primer》复习笔记</title>
+    <title>C++ Primer复习笔记</title>
     <link href="https://rogers140.github.io/2013/12/20/cpp-primer-notes/"/>
     <id>https://rogers140.github.io/2013/12/20/cpp-primer-notes/</id>
-    <published>2013-12-20T05:00:00.000Z</published>
-    <updated>2016-10-06T15:44:54.000Z</updated>
+    <published>2013-12-20T08:00:00.000Z</published>
+    <updated>2016-10-06T16:04:00.000Z</updated>
     
     <content type="html"><![CDATA[<ul>
 <li>1.编译器能够查出来的错误有：语法错误、类型错误、声明错误。</li>
@@ -76,19 +76,21 @@
 </li>
 <li>14.派生类析构函数不负责撤销基类对象的成员，因为编译器总是显式地调用派生类对象的基类部分的析构函数，每个析构函数只负责清除自己的成员。</li>
 <li>15.虚析构函数存在的意义：父类指针指向子类对象，运行时才可以判断对象的真正类型。所以这种指针在析构时，编译器并不知道其实际指向的类型，只会调用父类的析构函数，并没有动态绑定查找对象的实际析构函数，所以析构行为异常。当父类将析构函数设为虚函数后，即可动态查找到实际对象的析构函数，即子类的析构函数，执行正常的析构动作。</li>
-<li>16.在析构函数和构造函数中调用虚函数。在继承关系中，如果存在析构函数或者构造函数调用虚函数，请小心。因为在构造派生类和撤销派生类的时候，对象都是不完整的，所以编译器将对象类型视为在构造函数和析构函数期间发生了变化，所以其中调用的虚函数已经不是他们绑定的类实现的版本了。如果在构造函数或者析构函数中调用虚函数，则运行的是构造函数或者析构函数自身类型的版本。<br>Base类：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">ifndef</span> cpptest_Base_h</span></div><div class="line"><span class="meta">#<span class="meta-keyword">define</span> cpptest_Base_h</span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></div><div class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</div><div class="line"><span class="keyword">class</span> Base&#123;</div><div class="line"><span class="keyword">public</span>:</div><div class="line">    Base()&#123;</div><div class="line">        <span class="built_in">cout</span>&lt;&lt;<span class="string">"call base constructor."</span>&lt;&lt;<span class="built_in">endl</span>;</div><div class="line">        newfunc();</div><div class="line">    &#125;</div><div class="line">    <span class="function"><span class="keyword">virtual</span> <span class="keyword">void</span> <span class="title">newfunc</span><span class="params">()</span></span>&#123;</div><div class="line">        <span class="built_in">cout</span>&lt;&lt;<span class="string">"call base new function."</span>&lt;&lt;<span class="built_in">endl</span>;</div><div class="line">    &#125;</div><div class="line">    <span class="function"><span class="keyword">virtual</span> <span class="keyword">void</span> <span class="title">deletefunc</span><span class="params">()</span></span>&#123;</div><div class="line">        <span class="built_in">cout</span>&lt;&lt;<span class="string">"call base del function."</span>&lt;&lt;<span class="built_in">endl</span>;</div><div class="line">    &#125;</div><div class="line">    ~Base()&#123;</div><div class="line">        <span class="built_in">cout</span>&lt;&lt;<span class="string">"call base destructor."</span>&lt;&lt;<span class="built_in">endl</span>;</div><div class="line">        deletefunc();</div><div class="line">    &#125;</div><div class="line">&#125;;</div><div class="line"><span class="meta">#<span class="meta-keyword">endif</span></span></div></pre></td></tr></table></figure>
-</li>
+<li>16.在析构函数和构造函数中调用虚函数。在继承关系中，如果存在析构函数或者构造函数调用虚函数，请小心。因为在构造派生类和撤销派生类的时候，对象都是不完整的，所以编译器将对象类型视为在构造函数和析构函数期间发生了变化，所以其中调用的虚函数已经不是他们绑定的类实现的版本了。如果在构造函数或者析构函数中调用虚函数，则运行的是构造函数或者析构函数自身类型的版本。</li>
 </ul>
+<p>Base类：<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">ifndef</span> cpptest_Base_h</span></div><div class="line"><span class="meta">#<span class="meta-keyword">define</span> cpptest_Base_h</span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></div><div class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</div><div class="line"><span class="keyword">class</span> Base&#123;</div><div class="line"><span class="keyword">public</span>:</div><div class="line">    Base()&#123;</div><div class="line">        <span class="built_in">cout</span>&lt;&lt;<span class="string">"call base constructor."</span>&lt;&lt;<span class="built_in">endl</span>;</div><div class="line">        newfunc();</div><div class="line">    &#125;</div><div class="line">    <span class="function"><span class="keyword">virtual</span> <span class="keyword">void</span> <span class="title">newfunc</span><span class="params">()</span></span>&#123;</div><div class="line">        <span class="built_in">cout</span>&lt;&lt;<span class="string">"call base new function."</span>&lt;&lt;<span class="built_in">endl</span>;</div><div class="line">    &#125;</div><div class="line">    <span class="function"><span class="keyword">virtual</span> <span class="keyword">void</span> <span class="title">deletefunc</span><span class="params">()</span></span>&#123;</div><div class="line">        <span class="built_in">cout</span>&lt;&lt;<span class="string">"call base del function."</span>&lt;&lt;<span class="built_in">endl</span>;</div><div class="line">    &#125;</div><div class="line">    ~Base()&#123;</div><div class="line">        <span class="built_in">cout</span>&lt;&lt;<span class="string">"call base destructor."</span>&lt;&lt;<span class="built_in">endl</span>;</div><div class="line">        deletefunc();</div><div class="line">    &#125;</div><div class="line">&#125;;</div><div class="line"><span class="meta">#<span class="meta-keyword">endif</span></span></div></pre></td></tr></table></figure></p>
 <p>Derived类：<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">ifndef</span> cpptest_Base_h</span></div><div class="line"><span class="meta">#<span class="meta-keyword">define</span> cpptest_Base_h</span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">"Base.h"</span></span></div><div class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</div><div class="line"><span class="keyword">class</span> Derived&#123;</div><div class="line"><span class="keyword">public</span>:</div><div class="line">    <span class="function"><span class="keyword">void</span> <span class="title">newfunc</span><span class="params">()</span></span>&#123;</div><div class="line">        <span class="built_in">cout</span>&lt;&lt;<span class="string">"call Derived new function."</span>&lt;&lt;<span class="built_in">endl</span>;</div><div class="line">    &#125;</div><div class="line">    <span class="function"><span class="keyword">void</span> <span class="title">deletefunc</span><span class="params">()</span></span>&#123;</div><div class="line">        <span class="built_in">cout</span>&lt;&lt;<span class="string">"call Derived del function."</span>&lt;&lt;<span class="built_in">endl</span>;</div><div class="line">    &#125;</div><div class="line">&#125;;</div><div class="line"><span class="meta">#<span class="meta-keyword">endif</span></span></div></pre></td></tr></table></figure></p>
 <p>main函数：<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">"Base.h"</span></span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">"Derived.h"</span></span></div><div class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">int</span> argc, <span class="keyword">const</span> <span class="keyword">char</span> * argv[])</span></span></div><div class="line">&#123;</div><div class="line"></div><div class="line">    Derived *d =  <span class="keyword">new</span> Derived();</div><div class="line">    <span class="keyword">delete</span> d;</div><div class="line">    getchar();</div><div class="line">    <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <p>输出：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">call base constructor.</div><div class="line">call base new function.</div><div class="line">call base destructor.</div><div class="line">call base del function.</div></pre></td></tr></table></figure></p>
 <ul>
 <li>17.派生类想通过自身类型使用所有的函数重载版本，就得在派生类中重定义所有版本，要么一个也不定义。因为编译器调用函数是按名查找，在子类中查到了该函数名就不会再往上继续查找继承链。</li>
-<li>18.函数调用的编译器按名查找：<pre><code>1. 确定进行函数调用的对象、引用、指针的“静态类型”
-2. 在该类中查找函数名，查不到就沿着继承链向父类依次查找，若无法找到，则调用失败
-3. 找到该名字之后，就进行常规类型检查，查看函数调用是否合法
-4. 如果不合法，则调用失败；如果合法，则编译器生成代码，并考虑是否是虚函数，是否需要加入动态绑定
-</code></pre></li>
+<li>18.函数调用的编译器按名查找：<ol>
+<li>确定进行函数调用的对象、引用、指针的“静态类型”</li>
+<li>在该类中查找函数名，查不到就沿着继承链向父类依次查找，若无法找到，则调用失败</li>
+<li>找到该名字之后，就进行常规类型检查，查看函数调用是否合法</li>
+<li>如果不合法，则调用失败；如果合法，则编译器生成代码，并考虑是否是虚函数，是否需要加入动态绑定</li>
+</ol>
+</li>
 <li>18.非类型模板形参，在调用函数时将会用值代替，值的类型在模板形参表指定。</li>
 <li>19.模板的实参类型推断不支持类型转换。</li>
 <li>20.不仅可以特化类模板，还可以特化类成员而不特化类</li>
@@ -115,18 +117,17 @@
     <title>制作kindle mobi竖排电子书</title>
     <link href="https://rogers140.github.io/2013/12/18/mobi-vertical/"/>
     <id>https://rogers140.github.io/2013/12/18/mobi-vertical/</id>
-    <published>2013-12-18T05:00:00.000Z</published>
-    <updated>2016-10-06T15:40:35.000Z</updated>
+    <published>2013-12-18T08:00:00.000Z</published>
+    <updated>2016-10-06T16:18:11.000Z</updated>
     
     <content type="html"><![CDATA[<p>年初入手日版Kindle Paperwhite，之后就陆续用它看了好多本闲书，越来越无法忍受iPad刺眼的屏幕光线了。当然，目前Kindle系列（除开Amazon的平板电脑）对于PDF的支持不佳，所以阅读文献、专业书籍、Notes等一些东西还是离不开iPad。但对于小说、杂文、古籍等等，Kindle的阅读体验远好于iPad。Kindle到了Paperwhite开始支持竖排书籍，更是一件锦上添花的事情。台湾、日本的很多书都是以竖排形式发布，非常别致。大陆汉字简化之前，文本也大都采用繁体竖排。所以现在我们看到很多古籍，觉得有种古色古香的味道，多半是因为竖排和繁体的效果。在此不讨论竖排和横排的优劣，单纯考虑如何将一本书转化为kindle支持的竖排mobi格式。</p>
 <p>所谓竖排，可以参考Wikipedia的介绍：<a href="http://http://zh.wikipedia.org/wiki/%E6%9D%B1%E4%BA%9E%E6%96%87%E5%AD%97%E6%8E%92%E5%88%97%E6%96%B9%E5%90%91" target="_blank" rel="external">東亞文字排列方向</a>。简单来说，就是文本从上至下、从右至左阅读。相应的，竖排的标点符号样式和位置与大陆熟悉的横排也有所不同。什么样的书籍适合竖排？我认为最适合竖排的是古典名著（尤其是批注版本）、古代诗歌、历史文献、新文化运动时期的杂文（鲁迅文集）、台湾和日本翻译过来的小说、俳句。下面我就以朱熹的《诗经集传》为例，介绍一下制作竖排电子书的过程。</p>
 <p>首先，我们需要用到的工具软件有：<a href="https://code.google.com/p/sigil/" target="_blank" rel="external">Sigil</a>，<a href="http://www.amazon.com/gp/feature.html?docId=1000765261" target="_blank" rel="external">Kindle Previewer</a>。Sigil是一个epub文件的编辑器，我们用它来修改epub格式电子书的格式、目录、文字、封面等等。Kindle Previewer里面包含了Kindle Generator，我们用它来编译epub文件到mobi。</p>
 <p>接下来需要做的就是找到一个目标书籍的epub文件，尽量选择精校、带目录、分章节、有封面的版本，节省我们格式修改的工作量。用Sigil打开epub文件，我们会看到左侧的文件目录。其中Text文件目录下面放的就是epub每一章的html文件，包括文本内容和自定义的html简单样式，Styles里面放着的就是书籍的main.css文件（有的书籍没有这个文件，我们可以自己创建）。修改一下各个章节的错别字、段落、加粗斜体等小错误之后，我们打开Styles下面的main.css，将里面的内容替换为如下代码：<br><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line">@<span class="keyword">font-face</span> &#123;</div><div class="line"><span class="attribute">font-family</span>: <span class="string">"DroidFont"</span>, serif, sans-serif;</div><div class="line"><span class="attribute">src</span>: <span class="built_in">url</span>(res:///system/fonts/DroidSansFallback.ttf);</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-tag">body</span> &#123; <span class="attribute">margin-left</span>: <span class="number">5%</span>; <span class="attribute">margin-right</span>: <span class="number">5%</span>; <span class="attribute">margin-top</span>: <span class="number">5%</span>; <span class="attribute">margin-bottom</span>: <span class="number">5%</span>; <span class="attribute">text-align</span>: justify; <span class="attribute">-epub-writing-mode</span>: vertical-rl;&#125;</div><div class="line"></div><div class="line"><span class="selector-tag">h1</span> &#123; <span class="attribute">text-align</span>: center; &#125;</div><div class="line"><span class="selector-tag">h2</span> &#123; <span class="attribute">text-align</span>: center; &#125;</div><div class="line"><span class="selector-tag">h3</span> &#123; <span class="attribute">text-align</span>: center; &#125;</div><div class="line"><span class="selector-tag">h4</span> &#123; <span class="attribute">text-align</span>: center; &#125;</div><div class="line"><span class="selector-tag">h5</span> &#123; <span class="attribute">text-align</span>: center; &#125;</div><div class="line"><span class="selector-tag">h6</span> &#123; <span class="attribute">text-align</span>: center; &#125;</div><div class="line"><span class="selector-class">.CI</span> &#123;</div><div class="line"><span class="attribute">text-align</span>:center;</div><div class="line"><span class="attribute">margin-top</span>:<span class="number">1px</span>;</div><div class="line"><span class="attribute">margin-bottom</span>:<span class="number">1px</span>;</div><div class="line"><span class="attribute">padding</span>:<span class="number">1px</span>;</div><div class="line">&#125;</div><div class="line"><span class="selector-class">.center</span> &#123;<span class="attribute">text-align</span>: center;&#125;</div><div class="line"><span class="selector-class">.smcap</span> &#123;<span class="attribute">font-variant</span>: small-caps;&#125;</div><div class="line"><span class="selector-class">.u</span> &#123;<span class="attribute">text-decoration</span>: underline;&#125;</div><div class="line"><span class="selector-class">.bold</span> &#123;<span class="attribute">font-weight</span>: bold;&#125;</div></pre></td></tr></table></figure></p>
-<p>保存。如果需要修改翻页出发方向，可以打开content.opf，找到带有spine标签的一行：<br><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">spine</span> <span class="attr">toc</span>=<span class="string">"ncx"</span>&gt;</span></div></pre></td></tr></table></figure></p>
-<p>改为：<br><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">spine</span> <span class="attr">page-progression-direction</span>=<span class="string">"rtl"</span> <span class="attr">toc</span>=<span class="string">"ncx"</span>&gt;</span></div></pre></td></tr></table></figure></p>
-<p>保存。</p>
-<p>然后用Kindle Previewer打开刚才编辑过的epub文件（注意需要在设备选项中选中Kindle Paperwhite，不然不支持竖排的编译），自动编译过后，就可以找到编译生成好的mobi文件了。</p>
-<p>（参考资料：<a href="http://www.zhihu.com/question/21234737" target="_blank" rel="external">知乎</a>）</p>
+<p>保存。如果需要修改翻页出发方向，可以打开content.opf，找到带有spine标签的一行：<br><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">spine</span> <span class="attr">toc</span>=<span class="string">'ncx'</span>&gt;</span></div></pre></td></tr></table></figure></p>
+<p>改为：<br><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">spine</span> <span class="attr">page-progression-direction</span>=<span class="string">'rtl'</span> <span class="attr">toc</span>=<span class="string">'ncx'</span>&gt;</span></div></pre></td></tr></table></figure></p>
+<p>保存。然后用Kindle Previewer打开刚才编辑过的epub文件。注意需要在设备选项中选中Kindle Paperwhite，不然不支持竖排的编译。自动编译过后，就可以找到编译生成好的mobi文件了。</p>
+<p>参考资料：<a href="http://www.zhihu.com/question/21234737" target="_blank" rel="external">知乎</a></p>
 ]]></content>
     
     <summary type="html">
@@ -142,7 +143,7 @@
     <title>typename关键字</title>
     <link href="https://rogers140.github.io/2013/12/06/typename/"/>
     <id>https://rogers140.github.io/2013/12/06/typename/</id>
-    <published>2013-12-06T05:00:00.000Z</published>
+    <published>2013-12-06T08:00:00.000Z</published>
     <updated>2016-10-06T15:42:23.000Z</updated>
     
     <content type="html"><![CDATA[<p>昨天的课程信息量有点大，听完感觉还蛮累的，尤其是在理解hashtable的源代码的时候，模板的泛化和特化参杂函数对象，还是有些小复杂的。总体上来说听得很懂，但看到有些疑惑：<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">typedef</span> <span class="keyword">typename</span> rep_type::const_iterator iterator;</div></pre></td></tr></table></figure></p>
@@ -164,7 +165,7 @@
     <title>侯捷老师C++ gp and STL笔记（二）</title>
     <link href="https://rogers140.github.io/2013/12/04/houjie-cpp-notes2/"/>
     <id>https://rogers140.github.io/2013/12/04/houjie-cpp-notes2/</id>
-    <published>2013-12-04T05:00:00.000Z</published>
+    <published>2013-12-04T08:00:00.000Z</published>
     <updated>2016-10-06T15:39:02.000Z</updated>
     
     <content type="html"><![CDATA[<p>##第三节课##</p>
@@ -206,7 +207,7 @@
     <title>Move to github and cheers!</title>
     <link href="https://rogers140.github.io/2013/12/03/move-blog-to-github-/"/>
     <id>https://rogers140.github.io/2013/12/03/move-blog-to-github-/</id>
-    <published>2013-12-03T05:00:00.000Z</published>
+    <published>2013-12-03T08:00:00.000Z</published>
     <updated>2016-10-06T15:31:26.000Z</updated>
     
     <content type="html"><![CDATA[<p>终于在繁忙的申请期找到一天的空闲，可以喘口气，做一些前面一直没时间的事情，比如重新开启我的blog。</p>
@@ -226,7 +227,7 @@
     <title>侯捷老师C++ gp and STL笔记（一）</title>
     <link href="https://rogers140.github.io/2013/12/02/houjie-cpp-notes/"/>
     <id>https://rogers140.github.io/2013/12/02/houjie-cpp-notes/</id>
-    <published>2013-12-02T05:00:00.000Z</published>
+    <published>2013-12-02T08:00:00.000Z</published>
     <updated>2016-10-06T15:31:11.000Z</updated>
     
     <content type="html"><![CDATA[<p>##第一节课##</p>
@@ -277,7 +278,7 @@
     <title>如何在input标签上传文件之前获得文件大小？</title>
     <link href="https://rogers140.github.io/2013/03/02/get-pic-size-before-input/"/>
     <id>https://rogers140.github.io/2013/03/02/get-pic-size-before-input/</id>
-    <published>2013-03-02T05:00:00.000Z</published>
+    <published>2013-03-02T08:00:00.000Z</published>
     <updated>2016-10-06T15:38:45.000Z</updated>
     
     <content type="html"><![CDATA[<p>周四又整那个网站呢，遇到一个问题，就是要限制用户上传图片的大小，如果太大的话，比如超过300K之后就弹出提示窗口。一开始觉得还挺简单的，而且想到了两个思路，一个是在前台检验，用js或者html5；另一个是在后台检测，php似乎也有类似的函数可以实现。但在网上搜了一下，很多例子都用不了，而且还有各种浏览器兼容的问题，考虑到我们已经鼓励用户用Chrome和Firefox了，而且如果传到后台再检测其实是拿不到文件的，因为在前台现限制了大小。于是只能用前台检测方法了，最后决定用这个：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">handleFileSelect</span>(<span class="params">evt</span>) </span>&#123;</div><div class="line">    <span class="keyword">var</span> files = evt.target.files; <span class="comment">// FileList object</span></div><div class="line">    <span class="keyword">if</span>(files[<span class="number">0</span>].size&lt;<span class="number">400000</span>)&#123;</div><div class="line">        alert(<span class="string">"文件大小超过300k！请重新选择！"</span>);</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">else</span>&#123;&#125;</div><div class="line">&#125;</div><div class="line"><span class="built_in">document</span>.getElementById(<span class="string">'thepic'</span>).addEventListener(<span class="string">'change'</span>, handleFileSelect, <span class="literal">false</span>); <span class="comment">//其中thepic里填写需要的标签id</span></div></pre></td></tr></table></figure></p>
@@ -298,7 +299,7 @@
     <title>用vsftpd建立ftp遇到的问题以及解决方法</title>
     <link href="https://rogers140.github.io/2013/02/11/vsftpd-ftp/"/>
     <id>https://rogers140.github.io/2013/02/11/vsftpd-ftp/</id>
-    <published>2013-02-11T05:00:00.000Z</published>
+    <published>2013-02-11T08:00:00.000Z</published>
     <updated>2016-10-06T15:30:44.000Z</updated>
     
     <content type="html"><![CDATA[<p>终于搞好了ftp的上传下载。感谢伟大的搜索引擎。途中遇到如下问题：</p>
@@ -327,7 +328,7 @@
     <title>博客迁移至Amazon EC2</title>
     <link href="https://rogers140.github.io/2013/01/21/move-to-ec2/"/>
     <id>https://rogers140.github.io/2013/01/21/move-to-ec2/</id>
-    <published>2013-01-21T05:00:00.000Z</published>
+    <published>2013-01-21T08:00:00.000Z</published>
     <updated>2016-10-06T15:29:10.000Z</updated>
     
     <content type="html"><![CDATA[<p>这两天折腾死Amazon EC2。前面听说免费，而且是境外服务器，觉得特好，然后专门去查了一下它的计费策略。果然有Free的套餐，对于我这么一个个人独立博客来说够用了。于是开始配置啊，搭建啊，正好用Amazon推荐的Linux复习一下Linux的知识。不过你别说，境外的服务器下载那些php啊，sql啊什么的还就蛮快，几秒的样子，让我这个饱受下载速度折磨的人唏嘘不已。一般对于那些只有几M的东西，却看是以b/s计数的下载速度，我差不多早崩溃了。最怕“大约剩余一小时”这样的，因为一般我过了一小时回来看，还是“大约剩余一小时”……</p>
@@ -348,7 +349,7 @@
     <title>python实现gmail自动收发邮件</title>
     <link href="https://rogers140.github.io/2012/05/05/pyhton-automaticly-gmail-sending/"/>
     <id>https://rogers140.github.io/2012/05/05/pyhton-automaticly-gmail-sending/</id>
-    <published>2012-05-05T04:00:00.000Z</published>
+    <published>2012-05-05T07:00:00.000Z</published>
     <updated>2016-10-06T15:41:08.000Z</updated>
     
     <content type="html"><![CDATA[<p>因为软工项目可能用到自动发邮件这个功能，所以先用python实现了一下，先不说别的，上代码。<br>EmailSender.py<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> smtplib</div><div class="line"><span class="keyword">import</span> sys</div><div class="line"><span class="keyword">import</span> email.mime.text</div><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">GmailSender</span>:</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self,username,password)</span>:</span></div><div class="line">        self.mail_username=username</div><div class="line">        self.mail_password=password</div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">sendEmail</span><span class="params">(self,to_addresslist,subject,content)</span>:</span></div><div class="line">        HOST = <span class="string">'smtp.gmail.com'</span></div><div class="line">    PORT = <span class="number">25</span></div><div class="line">    smtp = smtplib.SMTP()</div><div class="line">    <span class="keyword">print</span> <span class="string">'connecting ...'</span></div><div class="line">    <span class="keyword">try</span>:</div><div class="line">        <span class="keyword">print</span> smtp.connect(HOST,PORT)</div><div class="line">    <span class="keyword">except</span>:</div><div class="line">        <span class="keyword">print</span> <span class="string">'CONNECT ERROR '</span></div><div class="line">        smtp.starttls()</div><div class="line">        <span class="keyword">try</span>:</div><div class="line">            <span class="keyword">print</span> <span class="string">'Loginning...'</span></div><div class="line">            smtp.login(self.mail_username,self.mail_password)</div><div class="line">        <span class="keyword">except</span>:</div><div class="line">            <span class="keyword">print</span> <span class="string">'Login Error'</span></div><div class="line">        message=email.mime.text.MIMEText(<span class="string">""</span>+content)</div><div class="line">        message[<span class="string">'From'</span>]=self.mail_username</div><div class="line">        message[<span class="string">'To'</span>]=<span class="string">';'</span>.join(to_addresslist)</div><div class="line">        message[<span class="string">'subject'</span>]=<span class="string">""</span>+subject</div><div class="line">        <span class="keyword">print</span> <span class="string">'You message is '</span>+message.as_string()</div><div class="line">        smtp.sendmail(self.mail_username,to_addresslist,message.as_string())</div><div class="line">        smtp.quit()</div></pre></td></tr></table></figure></p>
@@ -370,7 +371,7 @@
     <title>JQuery的图片延迟加载的提醒</title>
     <link href="https://rogers140.github.io/2012/05/05/Jquery-lazyload-reminder/"/>
     <id>https://rogers140.github.io/2012/05/05/Jquery-lazyload-reminder/</id>
-    <published>2012-05-05T04:00:00.000Z</published>
+    <published>2012-05-05T07:00:00.000Z</published>
     <updated>2016-10-06T15:30:25.000Z</updated>
     
     <content type="html"><![CDATA[<p>以前没写过我做网站的事儿，这次就顺便说说。第一次做网站，是为南京ComicJehad做，为南京动漫爱好者和动漫产品生产商提供服务。给2800，当时觉得还挺多的，第一次，没经验，以为挺简单一个网站。后来发现网站的逻辑真心不简单，问题也很多。我和圣圣在2012年的夏天完成了第一版（玛达我debug的时候某人竟然在dota！）。那一版能用，但问题很多，经不起考验，安全性几乎没有。以至于我到了瑞典花天酒地还要惦记着远程给这个网站debug。我去当时真是什么奇葩的bug都有。</p>
@@ -394,7 +395,7 @@
     <title>Just Get Started.</title>
     <link href="https://rogers140.github.io/2012/04/26/just-get-started/"/>
     <id>https://rogers140.github.io/2012/04/26/just-get-started/</id>
-    <published>2012-04-26T04:00:00.000Z</published>
+    <published>2012-04-26T07:00:00.000Z</published>
     <updated>2016-10-06T15:28:03.000Z</updated>
     
     <content type="html"><![CDATA[<p>上个月学院就要我做个网站，唔，本来说4月15之前交的最好。但到现在也没怎么弄。后来想想其实也不难，就是自己不敢开始。那还想什么，直接租了个服务器（在此不得不赞一下服务工单的速度），就准备弄弄了。</p>
