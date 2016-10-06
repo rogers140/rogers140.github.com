@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://rogers140.github.io/"/>
-  <updated>2016-10-06T15:32:26.000Z</updated>
+  <updated>2016-10-06T19:07:41.000Z</updated>
   <id>https://rogers140.github.io/</id>
   
   <author>
@@ -20,9 +20,10 @@
     <link href="https://rogers140.github.io/2014/09/05/summer-summery/"/>
     <id>https://rogers140.github.io/2014/09/05/summer-summery/</id>
     <published>2014-09-05T07:00:00.000Z</published>
-    <updated>2016-10-06T15:32:26.000Z</updated>
+    <updated>2016-10-06T19:07:41.000Z</updated>
     
-    <content type="html"><![CDATA[<p>学校毕业手续一办完，就和小水还有逼圣去台湾和香港浪了15天，就作为毕业旅行了。回家之后又各种应酬请客吃饭联络感情花了一周左右，所以其实我的暑假真正开始的时间应该是7月20号左右。当时的想法就是这段时间想再提升一下自己的代码能力，加深对数据结构和算法的理解，为了10月的job fair的实习做一点准备，顺便折腾一下新学校那边的一些杂七杂八的事情。突然又想到本科期间买了好多技术书籍都没认真看过，放家里等于是扔了，未免可惜，带过去又太重，而且在那边也不一定会看的！那只好先看完咯……<br>于是我就照着这个思路做了，昨天算是完成了全部安排：</p>
+    <content type="html"><![CDATA[<p>学校毕业手续一办完，就和小水还有逼圣去台湾和香港浪了15天，就作为毕业旅行了。回家之后又各种应酬请客吃饭联络感情花了一周左右，所以其实我的暑假真正开始的时间应该是7月20号左右。当时的想法就是这段时间想再提升一下自己的代码能力，加深对数据结构和算法的理解，为了10月的job fair的实习做一点准备，顺便折腾一下新学校那边的一些杂七杂八的事情。<br><a id="more"></a></p>
+<p>突然又想到本科期间买了好多技术书籍都没认真看过，放家里等于是扔了，未免可惜，带过去又太重，而且在那边也不一定会看的！那只好先看完咯……<br>于是我就照着这个思路做了，昨天算是完成了全部安排：</p>
 <ul>
 <li>1.《STL源码剖析》</li>
 <li>2.《代码大全》</li>
@@ -43,7 +44,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;学校毕业手续一办完，就和小水还有逼圣去台湾和香港浪了15天，就作为毕业旅行了。回家之后又各种应酬请客吃饭联络感情花了一周左右，所以其实我的暑假真正开始的时间应该是7月20号左右。当时的想法就是这段时间想再提升一下自己的代码能力，加深对数据结构和算法的理解，为了10月的job
+      &lt;p&gt;学校毕业手续一办完，就和小水还有逼圣去台湾和香港浪了15天，就作为毕业旅行了。回家之后又各种应酬请客吃饭联络感情花了一周左右，所以其实我的暑假真正开始的时间应该是7月20号左右。当时的想法就是这段时间想再提升一下自己的代码能力，加深对数据结构和算法的理解，为了10月的job fair的实习做一点准备，顺便折腾一下新学校那边的一些杂七杂八的事情。&lt;br&gt;
     
     </summary>
     
@@ -55,9 +56,10 @@
     <link href="https://rogers140.github.io/2013/12/20/cpp-primer-notes/"/>
     <id>https://rogers140.github.io/2013/12/20/cpp-primer-notes/</id>
     <published>2013-12-20T08:00:00.000Z</published>
-    <updated>2016-10-06T16:04:00.000Z</updated>
+    <updated>2016-10-06T19:02:12.000Z</updated>
     
-    <content type="html"><![CDATA[<ul>
+    <content type="html"><![CDATA[<p>C++ Primer也看了一两遍了，但有些东西总是容易忘记或者弄错。最近准备再过一遍，边看边把一些奇奇怪怪的点记录下来。<br><a id="more"></a></p>
+<ul>
 <li>1.编译器能够查出来的错误有：语法错误、类型错误、声明错误。</li>
 <li>2.键盘键入文件结束符，Windows上用Ctrl+z，Unix上用control+d。</li>
 <li>3.标准库头文件用&lt;&gt;，自定义非标准头文件用””。</li>
@@ -102,11 +104,7 @@
     
     <summary type="html">
     
-      &lt;ul&gt;
-&lt;li&gt;1.编译器能够查出来的错误有：语法错误、类型错误、声明错误。&lt;/li&gt;
-&lt;li&gt;2.键盘键入文件结束符，Windows上用Ctrl+z，Unix上用control+d。&lt;/li&gt;
-&lt;li&gt;3.标准库头文件用&amp;lt;&amp;gt;，自定义非标准头文件用””。&lt;/li&gt;
-
+      &lt;p&gt;C++ Primer也看了一两遍了，但有些东西总是容易忘记或者弄错。最近准备再过一遍，边看边把一些奇奇怪怪的点记录下来。&lt;br&gt;
     
     </summary>
     
@@ -118,10 +116,9 @@
     <link href="https://rogers140.github.io/2013/12/18/mobi-vertical/"/>
     <id>https://rogers140.github.io/2013/12/18/mobi-vertical/</id>
     <published>2013-12-18T08:00:00.000Z</published>
-    <updated>2016-10-06T16:18:11.000Z</updated>
+    <updated>2016-10-06T19:07:01.000Z</updated>
     
-    <content type="html"><![CDATA[<p>年初入手日版Kindle Paperwhite，之后就陆续用它看了好多本闲书，越来越无法忍受iPad刺眼的屏幕光线了。当然，目前Kindle系列（除开Amazon的平板电脑）对于PDF的支持不佳，所以阅读文献、专业书籍、Notes等一些东西还是离不开iPad。但对于小说、杂文、古籍等等，Kindle的阅读体验远好于iPad。Kindle到了Paperwhite开始支持竖排书籍，更是一件锦上添花的事情。台湾、日本的很多书都是以竖排形式发布，非常别致。大陆汉字简化之前，文本也大都采用繁体竖排。所以现在我们看到很多古籍，觉得有种古色古香的味道，多半是因为竖排和繁体的效果。在此不讨论竖排和横排的优劣，单纯考虑如何将一本书转化为kindle支持的竖排mobi格式。</p>
-<p>所谓竖排，可以参考Wikipedia的介绍：<a href="http://http://zh.wikipedia.org/wiki/%E6%9D%B1%E4%BA%9E%E6%96%87%E5%AD%97%E6%8E%92%E5%88%97%E6%96%B9%E5%90%91" target="_blank" rel="external">東亞文字排列方向</a>。简单来说，就是文本从上至下、从右至左阅读。相应的，竖排的标点符号样式和位置与大陆熟悉的横排也有所不同。什么样的书籍适合竖排？我认为最适合竖排的是古典名著（尤其是批注版本）、古代诗歌、历史文献、新文化运动时期的杂文（鲁迅文集）、台湾和日本翻译过来的小说、俳句。下面我就以朱熹的《诗经集传》为例，介绍一下制作竖排电子书的过程。</p>
+    <content type="html"><![CDATA[<p>年初入手日版Kindle Paperwhite，之后就陆续用它看了好多本闲书，越来越无法忍受iPad刺眼的屏幕光线了。当然，目前Kindle系列（除开Amazon的平板电脑）对于PDF的支持不佳，所以阅读文献、专业书籍、Notes等一些东西还是离不开iPad。但对于小说、杂文、古籍等等，Kindle的阅读体验远好于iPad。Kindle到了Paperwhite开始支持竖排书籍，更是一件锦上添花的事情。台湾、日本的很多书都是以竖排形式发布，非常别致。大陆汉字简化之前，文本也大都采用繁体竖排。所以现在我们看到很多古籍，觉得有种古色古香的味道，多半是因为竖排和繁体的效果。在此不讨论竖排和横排的优劣，单纯考虑如何将一本书转化为kindle支持的竖排mobi格式。<br><a id="more"></a><br>所谓竖排，可以参考Wikipedia的介绍：<a href="http://http://zh.wikipedia.org/wiki/%E6%9D%B1%E4%BA%9E%E6%96%87%E5%AD%97%E6%8E%92%E5%88%97%E6%96%B9%E5%90%91" target="_blank" rel="external">東亞文字排列方向</a>。简单来说，就是文本从上至下、从右至左阅读。相应的，竖排的标点符号样式和位置与大陆熟悉的横排也有所不同。什么样的书籍适合竖排？我认为最适合竖排的是古典名著（尤其是批注版本）、古代诗歌、历史文献、新文化运动时期的杂文（鲁迅文集）、台湾和日本翻译过来的小说、俳句。下面我就以朱熹的《诗经集传》为例，介绍一下制作竖排电子书的过程。</p>
 <p>首先，我们需要用到的工具软件有：<a href="https://code.google.com/p/sigil/" target="_blank" rel="external">Sigil</a>，<a href="http://www.amazon.com/gp/feature.html?docId=1000765261" target="_blank" rel="external">Kindle Previewer</a>。Sigil是一个epub文件的编辑器，我们用它来修改epub格式电子书的格式、目录、文字、封面等等。Kindle Previewer里面包含了Kindle Generator，我们用它来编译epub文件到mobi。</p>
 <p>接下来需要做的就是找到一个目标书籍的epub文件，尽量选择精校、带目录、分章节、有封面的版本，节省我们格式修改的工作量。用Sigil打开epub文件，我们会看到左侧的文件目录。其中Text文件目录下面放的就是epub每一章的html文件，包括文本内容和自定义的html简单样式，Styles里面放着的就是书籍的main.css文件（有的书籍没有这个文件，我们可以自己创建）。修改一下各个章节的错别字、段落、加粗斜体等小错误之后，我们打开Styles下面的main.css，将里面的内容替换为如下代码：<br><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line">@<span class="keyword">font-face</span> &#123;</div><div class="line"><span class="attribute">font-family</span>: <span class="string">"DroidFont"</span>, serif, sans-serif;</div><div class="line"><span class="attribute">src</span>: <span class="built_in">url</span>(res:///system/fonts/DroidSansFallback.ttf);</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-tag">body</span> &#123; <span class="attribute">margin-left</span>: <span class="number">5%</span>; <span class="attribute">margin-right</span>: <span class="number">5%</span>; <span class="attribute">margin-top</span>: <span class="number">5%</span>; <span class="attribute">margin-bottom</span>: <span class="number">5%</span>; <span class="attribute">text-align</span>: justify; <span class="attribute">-epub-writing-mode</span>: vertical-rl;&#125;</div><div class="line"></div><div class="line"><span class="selector-tag">h1</span> &#123; <span class="attribute">text-align</span>: center; &#125;</div><div class="line"><span class="selector-tag">h2</span> &#123; <span class="attribute">text-align</span>: center; &#125;</div><div class="line"><span class="selector-tag">h3</span> &#123; <span class="attribute">text-align</span>: center; &#125;</div><div class="line"><span class="selector-tag">h4</span> &#123; <span class="attribute">text-align</span>: center; &#125;</div><div class="line"><span class="selector-tag">h5</span> &#123; <span class="attribute">text-align</span>: center; &#125;</div><div class="line"><span class="selector-tag">h6</span> &#123; <span class="attribute">text-align</span>: center; &#125;</div><div class="line"><span class="selector-class">.CI</span> &#123;</div><div class="line"><span class="attribute">text-align</span>:center;</div><div class="line"><span class="attribute">margin-top</span>:<span class="number">1px</span>;</div><div class="line"><span class="attribute">margin-bottom</span>:<span class="number">1px</span>;</div><div class="line"><span class="attribute">padding</span>:<span class="number">1px</span>;</div><div class="line">&#125;</div><div class="line"><span class="selector-class">.center</span> &#123;<span class="attribute">text-align</span>: center;&#125;</div><div class="line"><span class="selector-class">.smcap</span> &#123;<span class="attribute">font-variant</span>: small-caps;&#125;</div><div class="line"><span class="selector-class">.u</span> &#123;<span class="attribute">text-decoration</span>: underline;&#125;</div><div class="line"><span class="selector-class">.bold</span> &#123;<span class="attribute">font-weight</span>: bold;&#125;</div></pre></td></tr></table></figure></p>
 <p>保存。如果需要修改翻页出发方向，可以打开content.opf，找到带有spine标签的一行：<br><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">spine</span> <span class="attr">toc</span>=<span class="string">'ncx'</span>&gt;</span></div></pre></td></tr></table></figure></p>
@@ -132,7 +129,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;年初入手日版Kindle Paperwhite，之后就陆续用它看了好多本闲书，越来越无法忍受iPad刺眼的屏幕光线了。当然，目前Kindle系列（除开Amazon的平板电脑）对于PDF的支持不佳，所以阅读文献、专业书籍、Notes等一些东西还是离不开iPad。但对于小说、杂
+      &lt;p&gt;年初入手日版Kindle Paperwhite，之后就陆续用它看了好多本闲书，越来越无法忍受iPad刺眼的屏幕光线了。当然，目前Kindle系列（除开Amazon的平板电脑）对于PDF的支持不佳，所以阅读文献、专业书籍、Notes等一些东西还是离不开iPad。但对于小说、杂文、古籍等等，Kindle的阅读体验远好于iPad。Kindle到了Paperwhite开始支持竖排书籍，更是一件锦上添花的事情。台湾、日本的很多书都是以竖排形式发布，非常别致。大陆汉字简化之前，文本也大都采用繁体竖排。所以现在我们看到很多古籍，觉得有种古色古香的味道，多半是因为竖排和繁体的效果。在此不讨论竖排和横排的优劣，单纯考虑如何将一本书转化为kindle支持的竖排mobi格式。&lt;br&gt;
     
     </summary>
     
@@ -144,9 +141,11 @@
     <link href="https://rogers140.github.io/2013/12/06/typename/"/>
     <id>https://rogers140.github.io/2013/12/06/typename/</id>
     <published>2013-12-06T08:00:00.000Z</published>
-    <updated>2016-10-06T15:42:23.000Z</updated>
+    <updated>2016-10-06T19:07:58.000Z</updated>
     
-    <content type="html"><![CDATA[<p>昨天的课程信息量有点大，听完感觉还蛮累的，尤其是在理解hashtable的源代码的时候，模板的泛化和特化参杂函数对象，还是有些小复杂的。总体上来说听得很懂，但看到有些疑惑：<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">typedef</span> <span class="keyword">typename</span> rep_type::const_iterator iterator;</div></pre></td></tr></table></figure></p>
+    <content type="html"><![CDATA[<p>昨天的课程信息量有点大，听完感觉还蛮累的，尤其是在理解hashtable的源代码的时候，模板的泛化和特化参杂函数对象，还是有些小复杂的。</p>
+<a id="more"></a>
+<p>总体上来说听得很懂，但看到有些疑惑：<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">typedef</span> <span class="keyword">typename</span> rep_type::const_iterator iterator;</div></pre></td></tr></table></figure></p>
 <p>我们知道typename的一个比较常用的方法是写在模板声明里面，可以和class互换。比如：<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div></pre></td></tr></table></figure></p>
 <p>但在这里，显然不是这个用法。乍看之下，那段代码应该是在<code>define</code>一个类型，相当于后面出现的iterator都应该是 <code>typename rep_type::const_iterator</code>的一个代称，所以这个应该是一种类型。但是这种类型为什么要有<code>typename</code>关键字加进去呢？这就牵扯到一个语言歧义问题。我们换一个例子可能会更清楚，比如我们有如下的代码：<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div><div class="line"><span class="function"><span class="keyword">void</span> <span class="title">test</span><span class="params">()</span></span>&#123;</div><div class="line">  T::var *p;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <p>对于这样的代码，我们应该如何解释呢？有两种，一是定义了一个指向<code>T::var</code>类型的指针，另外一个意思其实是<code>T::var</code>是一个变量，与p变量做了一次乘法。编译器也是这样理解的，他很难知道这里的<code>T::var</code>到底是一个类型名称还是一个变量名，这就产生了歧义。于是为了避免这种现象发生，C++标准语言规定，当出现上述写法的时候，编译器默认<code>T::var</code>是一个变量而非对象，所以<code>T::var *p</code>会被解释为乘法而不是类型。那么我们如果需要让编译器将其理解为类型的话应该如何做呢？就加上<code>typename</code>关键字好了。</p>
@@ -154,49 +153,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;昨天的课程信息量有点大，听完感觉还蛮累的，尤其是在理解hashtable的源代码的时候，模板的泛化和特化参杂函数对象，还是有些小复杂的。总体上来说听得很懂，但看到有些疑惑：&lt;br&gt;&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td cl
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>侯捷老师C++ gp and STL笔记（二）</title>
-    <link href="https://rogers140.github.io/2013/12/04/houjie-cpp-notes2/"/>
-    <id>https://rogers140.github.io/2013/12/04/houjie-cpp-notes2/</id>
-    <published>2013-12-04T08:00:00.000Z</published>
-    <updated>2016-10-06T15:39:02.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>##第三节课##</p>
-<ul>
-<li><p>本页第一行的三个模板参数的存在，是为了应对const型的iterator，更加灵活。</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">self tmp = *<span class="keyword">this</span></div></pre></td></tr></table></figure>
-</li>
-<li><p>调用了其构造函数，所以并不是类型转换错误</p>
-</li>
-<li>如果malloc失败，则从最近的pool里面切一个出来应急</li>
-<li>所以alloc的free list模型获取block先要查看pool，如果pool足够切出相应大小的块，则直接切；若不够，产生了碎片，则先将碎片挂载到对应的list下面，然后重新想操作系统申请</li>
-<li>GNU C++的alloc在进程死掉之前，不会将资源归还给操作系统，即未使用free函数，是一种霸占资源的方式</li>
-<li>deque，双向队列，分段连续，所以对于使用者来说，就是连续的；map里面最初有8根指针，如果不够，则双倍扩张map大小</li>
-<li>deque的insert操作将向元素少的那边推</li>
-<li>malloc分配之后，其区块有上下两cookie，两个cookie内容完全一致，保存了区块的大小，由于大小是16的倍数，所以长度的最后四个bit都是0，而cookie就用其最后一个字节表示该区块十分被归还，这样的话就可以判断是否能够被合并</li>
-<li>stack，queue都是用了Adapter设计模式复用了deque</li>
-</ul>
-<p>##第四节课##</p>
-<ul>
-<li>hashtable: 元素超过篮子的个数时，就rehash</li>
-<li>_STL_TEMPLATE_NULL 在编译的时候会被转换成template&lt;&gt;，即模板的特化（template specialization）</li>
-<li>hash_set是一种退化，key就是value，value就是key</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;##第三节课##&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;本页第一行的三个模板参数的存在，是为了应对const型的iterator，更加灵活。&lt;/p&gt;
-&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;
+      &lt;p&gt;昨天的课程信息量有点大，听完感觉还蛮累的，尤其是在理解hashtable的源代码的时候，模板的泛化和特化参杂函数对象，还是有些小复杂的。&lt;/p&gt;
     
     </summary>
     
@@ -208,15 +165,14 @@
     <link href="https://rogers140.github.io/2013/12/03/move-blog-to-github-/"/>
     <id>https://rogers140.github.io/2013/12/03/move-blog-to-github-/</id>
     <published>2013-12-03T08:00:00.000Z</published>
-    <updated>2016-10-06T15:31:26.000Z</updated>
+    <updated>2016-10-06T19:07:08.000Z</updated>
     
-    <content type="html"><![CDATA[<p>终于在繁忙的申请期找到一天的空闲，可以喘口气，做一些前面一直没时间的事情，比如重新开启我的blog。</p>
+    <content type="html"><![CDATA[<p>终于在繁忙的申请期找到一天的空闲，可以喘口气，做一些前面一直没时间的事情，比如重新开启我的blog。<br><a id="more"></a></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;终于在繁忙的申请期找到一天的空闲，可以喘口气，做一些前面一直没时间的事情，比如重新开启我的blog。&lt;/p&gt;
-
+      &lt;p&gt;终于在繁忙的申请期找到一天的空闲，可以喘口气，做一些前面一直没时间的事情，比如重新开启我的blog。&lt;br&gt;
     
     </summary>
     
@@ -224,13 +180,14 @@
   </entry>
   
   <entry>
-    <title>侯捷老师C++ gp and STL笔记（一）</title>
+    <title>侯捷老师C++ gp and STL笔记</title>
     <link href="https://rogers140.github.io/2013/12/02/houjie-cpp-notes/"/>
     <id>https://rogers140.github.io/2013/12/02/houjie-cpp-notes/</id>
     <published>2013-12-02T08:00:00.000Z</published>
-    <updated>2016-10-06T15:31:11.000Z</updated>
+    <updated>2016-10-06T19:05:45.000Z</updated>
     
-    <content type="html"><![CDATA[<p>##第一节课##</p>
+    <content type="html"><![CDATA[<p>侯捷老师是个很有意思的人，虽然我对他课的期待最初来自于一些风言风语，说他吉他弹的非常好，然后听了几节课下来发现，竟然还挺有意思。我猜我对C++的兴趣，就源自那里吧。<br><a id="more"></a></p>
+<p>##第一节课##</p>
 <ul>
 <li>函数名称就是函数地址</li>
 <li>编译器检查符号重载（operator override）时，向左看类型</li>
@@ -258,16 +215,32 @@
 <li>Alloc使用16个free list，大小从8 Byte到128 Byte递增，超过128 Byte的资源申请不使用Alloc来分配，直接用malloc（为何使用128这个数字，是开发人员考虑到浪费率的问题，认为128 Byte之后，cookie造成的浪费可以接受）</li>
 <li>比如：Alloc得到获取32 Byte的资源申请，那么它向操作系统申请40倍的32 Byte大小的区块（区块指针借用每个区块的前4个Byte，叫做embeded pointer），对前20块进行切割，每块32 Byte，给出第一块到用户，链接第二块地址到#4，后面20块不切割，作为储备，如果此时有一个64 Byte大小的申请，则将储备切割成10块64 Byte，给出第一块给用户，链接第二块到#7</li>
 </ul>
+<p>##第三节课##</p>
+<ul>
+<li><p>本页第一行的三个模板参数的存在，是为了应对const型的iterator，更加灵活。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">self tmp = *<span class="keyword">this</span></div></pre></td></tr></table></figure>
+</li>
+<li><p>调用了其构造函数，所以并不是类型转换错误</p>
+</li>
+<li>如果malloc失败，则从最近的pool里面切一个出来应急</li>
+<li>所以alloc的free list模型获取block先要查看pool，如果pool足够切出相应大小的块，则直接切；若不够，产生了碎片，则先将碎片挂载到对应的list下面，然后重新想操作系统申请</li>
+<li>GNU C++的alloc在进程死掉之前，不会将资源归还给操作系统，即未使用free函数，是一种霸占资源的方式</li>
+<li>deque，双向队列，分段连续，所以对于使用者来说，就是连续的；map里面最初有8根指针，如果不够，则双倍扩张map大小</li>
+<li>deque的insert操作将向元素少的那边推</li>
+<li>malloc分配之后，其区块有上下两cookie，两个cookie内容完全一致，保存了区块的大小，由于大小是16的倍数，所以长度的最后四个bit都是0，而cookie就用其最后一个字节表示该区块十分被归还，这样的话就可以判断是否能够被合并</li>
+<li>stack，queue都是用了Adapter设计模式复用了deque</li>
+</ul>
+<p>##第四节课##</p>
+<ul>
+<li>hashtable: 元素超过篮子的个数时，就rehash</li>
+<li>_STL_TEMPLATE_NULL 在编译的时候会被转换成template&lt;&gt;，即模板的特化（template specialization）</li>
+<li>hash_set是一种退化，key就是value，value就是key</li>
+</ul>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;##第一节课##&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;函数名称就是函数地址&lt;/li&gt;
-&lt;li&gt;编译器检查符号重载（operator override）时，向左看类型&lt;/li&gt;
-&lt;li&gt;typename后面加()，表示产生这个typename的临时对象&lt;/li&gt;
-&lt;li&gt;编译器会对fu
+      &lt;p&gt;侯捷老师是个很有意思的人，虽然我对他课的期待最初来自于一些风言风语，说他吉他弹的非常好，然后听了几节课下来发现，竟然还挺有意思。我猜我对C++的兴趣，就源自那里吧。&lt;br&gt;
     
     </summary>
     
@@ -279,16 +252,16 @@
     <link href="https://rogers140.github.io/2013/03/02/get-pic-size-before-input/"/>
     <id>https://rogers140.github.io/2013/03/02/get-pic-size-before-input/</id>
     <published>2013-03-02T08:00:00.000Z</published>
-    <updated>2016-10-06T15:38:45.000Z</updated>
+    <updated>2016-10-06T19:02:39.000Z</updated>
     
-    <content type="html"><![CDATA[<p>周四又整那个网站呢，遇到一个问题，就是要限制用户上传图片的大小，如果太大的话，比如超过300K之后就弹出提示窗口。一开始觉得还挺简单的，而且想到了两个思路，一个是在前台检验，用js或者html5；另一个是在后台检测，php似乎也有类似的函数可以实现。但在网上搜了一下，很多例子都用不了，而且还有各种浏览器兼容的问题，考虑到我们已经鼓励用户用Chrome和Firefox了，而且如果传到后台再检测其实是拿不到文件的，因为在前台现限制了大小。于是只能用前台检测方法了，最后决定用这个：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">handleFileSelect</span>(<span class="params">evt</span>) </span>&#123;</div><div class="line">    <span class="keyword">var</span> files = evt.target.files; <span class="comment">// FileList object</span></div><div class="line">    <span class="keyword">if</span>(files[<span class="number">0</span>].size&lt;<span class="number">400000</span>)&#123;</div><div class="line">        alert(<span class="string">"文件大小超过300k！请重新选择！"</span>);</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">else</span>&#123;&#125;</div><div class="line">&#125;</div><div class="line"><span class="built_in">document</span>.getElementById(<span class="string">'thepic'</span>).addEventListener(<span class="string">'change'</span>, handleFileSelect, <span class="literal">false</span>); <span class="comment">//其中thepic里填写需要的标签id</span></div></pre></td></tr></table></figure></p>
+    <content type="html"><![CDATA[<p>周四又整那个网站呢，遇到一个问题，就是要限制用户上传图片的大小，如果太大的话，比如超过300K之后就弹出提示窗口。<br><a id="more"></a><br>一开始觉得还挺简单的，而且想到了两个思路，一个是在前台检验，用js或者html5；另一个是在后台检测，php似乎也有类似的函数可以实现。但在网上搜了一下，很多例子都用不了，而且还有各种浏览器兼容的问题，考虑到我们已经鼓励用户用Chrome和Firefox了，而且如果传到后台再检测其实是拿不到文件的，因为在前台现限制了大小。于是只能用前台检测方法了，最后决定用这个：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">handleFileSelect</span>(<span class="params">evt</span>) </span>&#123;</div><div class="line">    <span class="keyword">var</span> files = evt.target.files; <span class="comment">// FileList object</span></div><div class="line">    <span class="keyword">if</span>(files[<span class="number">0</span>].size&lt;<span class="number">400000</span>)&#123;</div><div class="line">        alert(<span class="string">"文件大小超过300k！请重新选择！"</span>);</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">else</span>&#123;&#125;</div><div class="line">&#125;</div><div class="line"><span class="built_in">document</span>.getElementById(<span class="string">'thepic'</span>).addEventListener(<span class="string">'change'</span>, handleFileSelect, <span class="literal">false</span>); <span class="comment">//其中thepic里填写需要的标签id</span></div></pre></td></tr></table></figure></p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"file"</span> <span class="attr">id</span>=<span class="string">"thepic"</span> <span class="attr">multiple</span>&gt;</span></div></pre></td></tr></table></figure>
 <p>经过测试可用。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;周四又整那个网站呢，遇到一个问题，就是要限制用户上传图片的大小，如果太大的话，比如超过300K之后就弹出提示窗口。一开始觉得还挺简单的，而且想到了两个思路，一个是在前台检验，用js或者html5；另一个是在后台检测，php似乎也有类似的函数可以实现。但在网上搜了一下，很多例
+      &lt;p&gt;周四又整那个网站呢，遇到一个问题，就是要限制用户上传图片的大小，如果太大的话，比如超过300K之后就弹出提示窗口。&lt;br&gt;
     
     </summary>
     
@@ -300,9 +273,9 @@
     <link href="https://rogers140.github.io/2013/02/11/vsftpd-ftp/"/>
     <id>https://rogers140.github.io/2013/02/11/vsftpd-ftp/</id>
     <published>2013-02-11T08:00:00.000Z</published>
-    <updated>2016-10-06T15:30:44.000Z</updated>
+    <updated>2016-10-06T19:08:02.000Z</updated>
     
-    <content type="html"><![CDATA[<p>终于搞好了ftp的上传下载。感谢伟大的搜索引擎。途中遇到如下问题：</p>
+    <content type="html"><![CDATA[<p>终于搞好了ftp的上传下载。感谢伟大的搜索引擎。途中遇到如下问题：<br><a id="more"></a></p>
 <ol>
 <li><p>无法启动vsftpd的service，说是无法读取配置文件。玛达是因为把vsftpd默认装在一个不sudo不行的地方，所以，只要sudo service vsftpd就好了。。</p>
 </li>
@@ -315,9 +288,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;终于搞好了ftp的上传下载。感谢伟大的搜索引擎。途中遇到如下问题：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;无法启动vsftpd的service，说是无法读取配置文件。玛达是因为把vsftpd默认装在一个不sudo不行的地方，所以，只要sudo service vsftpd就好了。
+      &lt;p&gt;终于搞好了ftp的上传下载。感谢伟大的搜索引擎。途中遇到如下问题：&lt;br&gt;
     
     </summary>
     
@@ -329,38 +300,17 @@
     <link href="https://rogers140.github.io/2013/01/21/move-to-ec2/"/>
     <id>https://rogers140.github.io/2013/01/21/move-to-ec2/</id>
     <published>2013-01-21T08:00:00.000Z</published>
-    <updated>2016-10-06T15:29:10.000Z</updated>
+    <updated>2016-10-06T19:07:24.000Z</updated>
     
-    <content type="html"><![CDATA[<p>这两天折腾死Amazon EC2。前面听说免费，而且是境外服务器，觉得特好，然后专门去查了一下它的计费策略。果然有Free的套餐，对于我这么一个个人独立博客来说够用了。于是开始配置啊，搭建啊，正好用Amazon推荐的Linux复习一下Linux的知识。不过你别说，境外的服务器下载那些php啊，sql啊什么的还就蛮快，几秒的样子，让我这个饱受下载速度折磨的人唏嘘不已。一般对于那些只有几M的东西，却看是以b/s计数的下载速度，我差不多早崩溃了。最怕“大约剩余一小时”这样的，因为一般我过了一小时回来看，还是“大约剩余一小时”……</p>
+    <content type="html"><![CDATA[<p>这两天折腾死Amazon EC2。前面听说免费，而且是境外服务器，觉得特好，然后专门去查了一下它的计费策略。果然有Free的套餐，对于我这么一个个人独立博客来说够用了。于是开始配置啊，搭建啊，正好用Amazon推荐的Linux复习一下Linux的知识。<br><a id="more"></a></p>
+<p>不过你别说，境外的服务器下载那些php啊，sql啊什么的还就蛮快，几秒的样子，让我这个饱受下载速度折磨的人唏嘘不已。一般对于那些只有几M的东西，却看是以b/s计数的下载速度，我差不多早崩溃了。最怕“大约剩余一小时”这样的，因为一般我过了一小时回来看，还是“大约剩余一小时“</p>
 <p>迁移博客除了上面提到的想试试EC2这个原因之外，还有一个是尼玛国内服务器备案竟然莫名其妙的被取消了！本来好好的，我寄了资料，审核成功，备案成功，用了几个月，然后我出国了就没管这个服务器了和博客了。有一天工信部突然给我发邮件，说“您的备案信息已经被更改”，我擦，什么意思！？不过当时正在荷兰花天酒地也就没在意。后来又收到邮件说“你的备案信息已经失效”。法克啊，我赶快去访问域名，尼玛直接报错啊，不带这么坑的啊！于是我下决心再不用国内服务器了，直接转国外的vps，限制少，福利多，还能用做VPN。。</p>
 <p>关于具体如何注册，配置，使用Amazon EC2，我就不啰嗦了，百度一下很多人的博客都有说，但是很多是过时的，不适合现在这个版本。所以还是建议有英语能力的人自己去看亚马逊提供的文档，有问题多查多交流。攻略等以后我有空了再去写吧。下一个任务就是在这个服务器上配置VPN。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;这两天折腾死Amazon EC2。前面听说免费，而且是境外服务器，觉得特好，然后专门去查了一下它的计费策略。果然有Free的套餐，对于我这么一个个人独立博客来说够用了。于是开始配置啊，搭建啊，正好用Amazon推荐的Linux复习一下Linux的知识。不过你别说，境外的服务
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>python实现gmail自动收发邮件</title>
-    <link href="https://rogers140.github.io/2012/05/05/pyhton-automaticly-gmail-sending/"/>
-    <id>https://rogers140.github.io/2012/05/05/pyhton-automaticly-gmail-sending/</id>
-    <published>2012-05-05T07:00:00.000Z</published>
-    <updated>2016-10-06T15:41:08.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>因为软工项目可能用到自动发邮件这个功能，所以先用python实现了一下，先不说别的，上代码。<br>EmailSender.py<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> smtplib</div><div class="line"><span class="keyword">import</span> sys</div><div class="line"><span class="keyword">import</span> email.mime.text</div><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">GmailSender</span>:</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self,username,password)</span>:</span></div><div class="line">        self.mail_username=username</div><div class="line">        self.mail_password=password</div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">sendEmail</span><span class="params">(self,to_addresslist,subject,content)</span>:</span></div><div class="line">        HOST = <span class="string">'smtp.gmail.com'</span></div><div class="line">    PORT = <span class="number">25</span></div><div class="line">    smtp = smtplib.SMTP()</div><div class="line">    <span class="keyword">print</span> <span class="string">'connecting ...'</span></div><div class="line">    <span class="keyword">try</span>:</div><div class="line">        <span class="keyword">print</span> smtp.connect(HOST,PORT)</div><div class="line">    <span class="keyword">except</span>:</div><div class="line">        <span class="keyword">print</span> <span class="string">'CONNECT ERROR '</span></div><div class="line">        smtp.starttls()</div><div class="line">        <span class="keyword">try</span>:</div><div class="line">            <span class="keyword">print</span> <span class="string">'Loginning...'</span></div><div class="line">            smtp.login(self.mail_username,self.mail_password)</div><div class="line">        <span class="keyword">except</span>:</div><div class="line">            <span class="keyword">print</span> <span class="string">'Login Error'</span></div><div class="line">        message=email.mime.text.MIMEText(<span class="string">""</span>+content)</div><div class="line">        message[<span class="string">'From'</span>]=self.mail_username</div><div class="line">        message[<span class="string">'To'</span>]=<span class="string">';'</span>.join(to_addresslist)</div><div class="line">        message[<span class="string">'subject'</span>]=<span class="string">""</span>+subject</div><div class="line">        <span class="keyword">print</span> <span class="string">'You message is '</span>+message.as_string()</div><div class="line">        smtp.sendmail(self.mail_username,to_addresslist,message.as_string())</div><div class="line">        smtp.quit()</div></pre></td></tr></table></figure></p>
-<p>接下来就是main.py了，执行发邮件的命令<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">from</span> EmailSender <span class="keyword">import</span>*</div><div class="line">gs=GmailSender(<span class="string">'***@gmail.com'</span>,<span class="string">'***'</span>)</div><div class="line">to_list=(<span class="string">'***@qq.com'</span>,)</div><div class="line">subject=<span class="string">"haha"</span></div><div class="line">content=<span class="string">"haha"</span></div><div class="line">gs.sendEmail(to_list,subject,content)</div></pre></td></tr></table></figure></p>
-<p>但是想查询自己的未读邮件怎么办呢？这里要注意一个问题，smtp协议是发送和接收的协议，pop和imap是查询邮件的协议，有的邮箱服务提供商不一定都支持pop和imap，但至少支持一个，现在一般都是imap。若是和我一样用的Gmail，那么最好是用imap协议查询，使用pop需要自己改很多东西。</p>
-<p>支持Gmail的代码如下:<br>EmailChecker.py<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> imaplib</div><div class="line"><span class="keyword">import</span> email</div><div class="line"><span class="keyword">import</span> string</div><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">GmailChecker</span>:</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self,username,password)</span>:</span></div><div class="line">        self.username=username</div><div class="line">        self.password=password</div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">checkmail</span><span class="params">(self)</span>:</span></div><div class="line">        server=imaplib.IMAP4_SSL(<span class="string">'imap.gmail.com'</span>,<span class="string">'993'</span>)</div><div class="line">        <span class="keyword">try</span>:</div><div class="line">            <span class="keyword">print</span> <span class="string">'logining...'</span></div><div class="line">            server.login(self.username,self.password)</div><div class="line">            <span class="keyword">print</span> <span class="string">'###login success###'</span></div><div class="line">        <span class="keyword">except</span>:</div><div class="line">            <span class="keyword">print</span> <span class="string">'login fail'</span></div><div class="line">            server.close()</div><div class="line">        result,message=server.select()</div><div class="line">        typ,data=server.search(<span class="keyword">None</span>,<span class="string">'unseen'</span>)</div><div class="line">        <span class="keyword">print</span> <span class="string">''</span>+data[<span class="number">0</span>]</div><div class="line">        <span class="keyword">for</span> num <span class="keyword">in</span> string.split(data[<span class="number">0</span>]):</div><div class="line">            <span class="keyword">try</span>:</div><div class="line">                typ,dat=server.fetch(num,<span class="string">'(RFC822)'</span>)</div><div class="line">                <span class="comment">#fetch方法(emailID,format)</span></div><div class="line">                msg=email.message_from_string(dat[<span class="number">0</span>][<span class="number">1</span>])</div><div class="line">                <span class="comment">#dat是一个list，大小为2；</span></div><div class="line">                <span class="comment">#dat[0]也是一个list,dat[0][0]是邮件头，定义一些格式啊什么的，dat[0][1]是邮件主体；</span></div><div class="line">                <span class="comment">#dat[1]是一个')'</span></div><div class="line">                <span class="keyword">print</span> msg[<span class="string">'From'</span>]</div><div class="line">                <span class="keyword">print</span> msg[<span class="string">'subject'</span>]</div><div class="line">                <span class="keyword">print</span> msg[<span class="string">'Date'</span>]</div><div class="line">                <span class="keyword">print</span> <span class="string">'____________________________________'</span></div><div class="line">            <span class="keyword">except</span> Exception, e:</div><div class="line">                <span class="keyword">print</span> e</div><div class="line">gc=GmailChecker(<span class="string">'***@gmail.com'</span>,<span class="string">'*********'</span>)</div><div class="line">gc.checkmail()</div></pre></td></tr></table></figure></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;因为软工项目可能用到自动发邮件这个功能，所以先用python实现了一下，先不说别的，上代码。&lt;br&gt;EmailSender.py&lt;br&gt;&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;
+      &lt;p&gt;这两天折腾死Amazon EC2。前面听说免费，而且是境外服务器，觉得特好，然后专门去查了一下它的计费策略。果然有Free的套餐，对于我这么一个个人独立博客来说够用了。于是开始配置啊，搭建啊，正好用Amazon推荐的Linux复习一下Linux的知识。&lt;br&gt;
     
     </summary>
     
@@ -372,9 +322,10 @@
     <link href="https://rogers140.github.io/2012/05/05/Jquery-lazyload-reminder/"/>
     <id>https://rogers140.github.io/2012/05/05/Jquery-lazyload-reminder/</id>
     <published>2012-05-05T07:00:00.000Z</published>
-    <updated>2016-10-06T15:30:25.000Z</updated>
+    <updated>2016-10-06T19:06:45.000Z</updated>
     
-    <content type="html"><![CDATA[<p>以前没写过我做网站的事儿，这次就顺便说说。第一次做网站，是为南京ComicJehad做，为南京动漫爱好者和动漫产品生产商提供服务。给2800，当时觉得还挺多的，第一次，没经验，以为挺简单一个网站。后来发现网站的逻辑真心不简单，问题也很多。我和圣圣在2012年的夏天完成了第一版（玛达我debug的时候某人竟然在dota！）。那一版能用，但问题很多，经不起考验，安全性几乎没有。以至于我到了瑞典花天酒地还要惦记着远程给这个网站debug。我去当时真是什么奇葩的bug都有。</p>
+    <content type="html"><![CDATA[<p>以前没写过我做网站的事儿，这次就顺便说说。第一次做网站，是为南京ComicJehad做，为南京动漫爱好者和动漫产品生产商提供服务。给2800，当时觉得还挺多的，第一次，没经验，以为挺简单一个网站。后来发现网站的逻辑真心不简单，问题也很多。<br><a id="more"></a></p>
+<p>我和室友圣圣在2012年的夏天完成了第一版（我debug的时候某人竟然在dota！）。那一版能用，但问题很多，经不起考验，安全性几乎没有。以至于我到了瑞典花天酒地还要惦记着远程给这个网站debug。我去当时真是什么奇葩的bug都有。</p>
 <p>最近那个老板又说要改一些地方，我果断开口2000，圣圣却主张500，最后弄成1000，玛达你做那么个小东西人家就给了1800，这个能不多要点儿？算了，就当锻炼了。不过说起来这次无非是改改标签，调整下按钮的位置，但觉得收那么些钱改的太少还是不地道，于是我准备对本子信息这个我忍了很久的页面动刀。</p>
 <p>它的问题在于load这个页面需要加载很多图片，尽管我限制了上传图片的大小，但是数量一多，加载起来就巨慢。根本无法滚动页面，直到等几十秒，我这么温柔的人都受不了，更不要说用户这么暴躁的物种了。要么分页，要么延迟加载，最后我选了比较酷的延迟加载。</p>
 <p>我参考了这个人的<a href="http://www.appelsiini.net/projects/lazyload" target="_blank" rel="external">博客</a>，看了他的demo还不错，测试基本覆盖了主流浏览器。然后开始修改我的代码。试了一下，只能加载前面两行的图，也就是第一个页面看的见的图，后面不管你怎么滚动也加载不了。坑爹呢吧，于是我开始看他插件的源码，写的倒是挺不错的，可惜我对JQuery了解不多，属于那种遇到问题就google的类型，大概看懂他的意思，是说提供了很多的option。比方说默认的使用scroll这个event，就将它绑定到一个container上面，然后监听container是否被滚动来决定调用update()这个函数。看上去很简单吧，可是折腾了我和敏敏一晚上。主要问题就是这个container是什么东西。</p>
@@ -384,7 +335,29 @@
     
     <summary type="html">
     
-      &lt;p&gt;以前没写过我做网站的事儿，这次就顺便说说。第一次做网站，是为南京ComicJehad做，为南京动漫爱好者和动漫产品生产商提供服务。给2800，当时觉得还挺多的，第一次，没经验，以为挺简单一个网站。后来发现网站的逻辑真心不简单，问题也很多。我和圣圣在2012年的夏天完成了第一
+      &lt;p&gt;以前没写过我做网站的事儿，这次就顺便说说。第一次做网站，是为南京ComicJehad做，为南京动漫爱好者和动漫产品生产商提供服务。给2800，当时觉得还挺多的，第一次，没经验，以为挺简单一个网站。后来发现网站的逻辑真心不简单，问题也很多。&lt;br&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>python实现gmail自动收发邮件</title>
+    <link href="https://rogers140.github.io/2012/05/05/pyhton-automaticly-gmail-sending/"/>
+    <id>https://rogers140.github.io/2012/05/05/pyhton-automaticly-gmail-sending/</id>
+    <published>2012-05-05T07:00:00.000Z</published>
+    <updated>2016-10-06T19:07:29.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>因为软工项目可能用到自动发邮件这个功能，所以先用python实现了一下，先不说别的，上代码。<br><a id="more"></a><br>EmailSender.py<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> smtplib</div><div class="line"><span class="keyword">import</span> sys</div><div class="line"><span class="keyword">import</span> email.mime.text</div><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">GmailSender</span>:</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self,username,password)</span>:</span></div><div class="line">        self.mail_username=username</div><div class="line">        self.mail_password=password</div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">sendEmail</span><span class="params">(self,to_addresslist,subject,content)</span>:</span></div><div class="line">        HOST = <span class="string">'smtp.gmail.com'</span></div><div class="line">    PORT = <span class="number">25</span></div><div class="line">    smtp = smtplib.SMTP()</div><div class="line">    <span class="keyword">print</span> <span class="string">'connecting ...'</span></div><div class="line">    <span class="keyword">try</span>:</div><div class="line">        <span class="keyword">print</span> smtp.connect(HOST,PORT)</div><div class="line">    <span class="keyword">except</span>:</div><div class="line">        <span class="keyword">print</span> <span class="string">'CONNECT ERROR '</span></div><div class="line">        smtp.starttls()</div><div class="line">        <span class="keyword">try</span>:</div><div class="line">            <span class="keyword">print</span> <span class="string">'Loginning...'</span></div><div class="line">            smtp.login(self.mail_username,self.mail_password)</div><div class="line">        <span class="keyword">except</span>:</div><div class="line">            <span class="keyword">print</span> <span class="string">'Login Error'</span></div><div class="line">        message=email.mime.text.MIMEText(<span class="string">""</span>+content)</div><div class="line">        message[<span class="string">'From'</span>]=self.mail_username</div><div class="line">        message[<span class="string">'To'</span>]=<span class="string">';'</span>.join(to_addresslist)</div><div class="line">        message[<span class="string">'subject'</span>]=<span class="string">""</span>+subject</div><div class="line">        <span class="keyword">print</span> <span class="string">'You message is '</span>+message.as_string()</div><div class="line">        smtp.sendmail(self.mail_username,to_addresslist,message.as_string())</div><div class="line">        smtp.quit()</div></pre></td></tr></table></figure></p>
+<p>接下来就是main.py了，执行发邮件的命令<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">from</span> EmailSender <span class="keyword">import</span>*</div><div class="line">gs=GmailSender(<span class="string">'***@gmail.com'</span>,<span class="string">'***'</span>)</div><div class="line">to_list=(<span class="string">'***@qq.com'</span>,)</div><div class="line">subject=<span class="string">"haha"</span></div><div class="line">content=<span class="string">"haha"</span></div><div class="line">gs.sendEmail(to_list,subject,content)</div></pre></td></tr></table></figure></p>
+<p>但是想查询自己的未读邮件怎么办呢？这里要注意一个问题，smtp协议是发送和接收的协议，pop和imap是查询邮件的协议，有的邮箱服务提供商不一定都支持pop和imap，但至少支持一个，现在一般都是imap。若是和我一样用的Gmail，那么最好是用imap协议查询，使用pop需要自己改很多东西。</p>
+<p>支持Gmail的代码如下:<br>EmailChecker.py<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> imaplib</div><div class="line"><span class="keyword">import</span> email</div><div class="line"><span class="keyword">import</span> string</div><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">GmailChecker</span>:</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self,username,password)</span>:</span></div><div class="line">        self.username=username</div><div class="line">        self.password=password</div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">checkmail</span><span class="params">(self)</span>:</span></div><div class="line">        server=imaplib.IMAP4_SSL(<span class="string">'imap.gmail.com'</span>,<span class="string">'993'</span>)</div><div class="line">        <span class="keyword">try</span>:</div><div class="line">            <span class="keyword">print</span> <span class="string">'logining...'</span></div><div class="line">            server.login(self.username,self.password)</div><div class="line">            <span class="keyword">print</span> <span class="string">'###login success###'</span></div><div class="line">        <span class="keyword">except</span>:</div><div class="line">            <span class="keyword">print</span> <span class="string">'login fail'</span></div><div class="line">            server.close()</div><div class="line">        result,message=server.select()</div><div class="line">        typ,data=server.search(<span class="keyword">None</span>,<span class="string">'unseen'</span>)</div><div class="line">        <span class="keyword">print</span> <span class="string">''</span>+data[<span class="number">0</span>]</div><div class="line">        <span class="keyword">for</span> num <span class="keyword">in</span> string.split(data[<span class="number">0</span>]):</div><div class="line">            <span class="keyword">try</span>:</div><div class="line">                typ,dat=server.fetch(num,<span class="string">'(RFC822)'</span>)</div><div class="line">                <span class="comment">#fetch方法(emailID,format)</span></div><div class="line">                msg=email.message_from_string(dat[<span class="number">0</span>][<span class="number">1</span>])</div><div class="line">                <span class="comment">#dat是一个list，大小为2；</span></div><div class="line">                <span class="comment">#dat[0]也是一个list,dat[0][0]是邮件头，定义一些格式啊什么的，dat[0][1]是邮件主体；</span></div><div class="line">                <span class="comment">#dat[1]是一个')'</span></div><div class="line">                <span class="keyword">print</span> msg[<span class="string">'From'</span>]</div><div class="line">                <span class="keyword">print</span> msg[<span class="string">'subject'</span>]</div><div class="line">                <span class="keyword">print</span> msg[<span class="string">'Date'</span>]</div><div class="line">                <span class="keyword">print</span> <span class="string">'____________________________________'</span></div><div class="line">            <span class="keyword">except</span> Exception, e:</div><div class="line">                <span class="keyword">print</span> e</div><div class="line">gc=GmailChecker(<span class="string">'***@gmail.com'</span>,<span class="string">'*********'</span>)</div><div class="line">gc.checkmail()</div></pre></td></tr></table></figure></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;因为软工项目可能用到自动发邮件这个功能，所以先用python实现了一下，先不说别的，上代码。&lt;br&gt;
     
     </summary>
     
@@ -396,17 +369,16 @@
     <link href="https://rogers140.github.io/2012/04/26/just-get-started/"/>
     <id>https://rogers140.github.io/2012/04/26/just-get-started/</id>
     <published>2012-04-26T07:00:00.000Z</published>
-    <updated>2016-10-06T15:28:03.000Z</updated>
+    <updated>2016-10-06T19:06:48.000Z</updated>
     
-    <content type="html"><![CDATA[<p>上个月学院就要我做个网站，唔，本来说4月15之前交的最好。但到现在也没怎么弄。后来想想其实也不难，就是自己不敢开始。那还想什么，直接租了个服务器（在此不得不赞一下服务工单的速度），就准备弄弄了。</p>
+    <content type="html"><![CDATA[<p>上个月学院就要我做个网站，唔，本来说4月15之前交的最好。但到现在也没怎么弄。后来想想其实也不难，就是自己不敢开始。那还想什么，直接租了个服务器（在此不得不赞一下服务工单的速度），就准备弄弄了。<br><a id="more"></a></p>
 <p>然后，其实早就想有一个属于自己的博客，而不是在人人/Facebook/Twitter上浪，好歹服务器都有了，顺便也把博客大致搭起来吧。这是第一篇文章，显得有些寒酸。嗯，觉得也不会有什么人看的，所以没关系。在混乱高频的生活中，有些能存放写给自己的文字的空间，花的那么多租金也值了。</p>
 <p>就这样开始了吧，就和一件事情的结束一样。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;上个月学院就要我做个网站，唔，本来说4月15之前交的最好。但到现在也没怎么弄。后来想想其实也不难，就是自己不敢开始。那还想什么，直接租了个服务器（在此不得不赞一下服务工单的速度），就准备弄弄了。&lt;/p&gt;
-&lt;p&gt;然后，其实早就想有一个属于自己的博客，而不是在人人/Facebo
+      &lt;p&gt;上个月学院就要我做个网站，唔，本来说4月15之前交的最好。但到现在也没怎么弄。后来想想其实也不难，就是自己不敢开始。那还想什么，直接租了个服务器（在此不得不赞一下服务工单的速度），就准备弄弄了。&lt;br&gt;
     
     </summary>
     
