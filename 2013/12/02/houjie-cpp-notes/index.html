@@ -1,0 +1,29 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> 侯捷老师C++ gp and STL笔记（一） · r140</title><meta name="description" content="侯捷老师C++ gp and STL笔记（一） - Ruogu Liu"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="short icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="https://rogers140.github.io/atom.xml" title="r140"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="http://weibo.com/sunchongsheng" target="_blank" class="nav-list-link">WEIBO</a></li><li class="nav-list-item"><a href="https://github.com/pinggod" target="_blank" class="nav-list-link">GITHUB</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><section class="container"><div class="post"><article class="post-block"><h1 class="post-title">侯捷老师C++ gp and STL笔记（一）</h1><div class="post-info">Dec 2, 2013</div><div class="post-content"><p>##第一节课##</p>
+<ul>
+<li>函数名称就是函数地址</li>
+<li>编译器检查符号重载（operator override）时，向左看类型</li>
+<li>typename后面加()，表示产生这个typename的临时对象</li>
+<li>编译器会对fuction template进行实参推导，所以不用&lt;&gt;来指定类型</li>
+</ul>
+<p>##第二节课##</p>
+<ul>
+<li>vector的iterator的类型为指针</li>
+<li>32位机器上指针为4 Byte，所以size<em>of(vector)是3个指针大小 (start，finish，end\</em> of_storage)</li>
+<li>两个指针相加减，会根据类型自动算出元素的个数间隔而不是真正的地址相减</li>
+<li>operation ++() 为前++，但是为了区分前后++，另外还有一个operation ++ (T)的操作符重载，表示后++</li>
+<li>关于 -&gt; 操作符的重载，采取迭代措施，由编译器负责解决</li>
+<li>容器的iterator需要而且一定要定义五个type，分别为：<ul>
+<li>iterator_category</li>
+<li>value_type</li>
+<li>pointer</li>
+<li>reference</li>
+<li>difference_type</li>
+</ul>
+</li>
+<li>operator new是一个函数，在这个函数中调用了malloc (operator delete同理)</li>
+<li>malloc分配区块大小时，会在区块的开头结尾加上cookie块，分别为4 Byte大小，保存了这个区块的大小信息。上面的cookie保存的信息可以用于free这个区块资源，下面的cookie用来合并区块</li>
+<li>GNU的c++ STL不用标准的Allocator，而是用其自己实现的Alloc，Alloc分配器可以实现去掉cookie的作用，获得nocookie block</li>
+<li>Alloc使用16个free list，大小从8 Byte到128 Byte递增，超过128 Byte的资源申请不使用Alloc来分配，直接用malloc（为何使用128这个数字，是开发人员考虑到浪费率的问题，认为128 Byte之后，cookie造成的浪费可以接受）</li>
+<li>比如：Alloc得到获取32 Byte的资源申请，那么它向操作系统申请40倍的32 Byte大小的区块（区块指针借用每个区块的前4个Byte，叫做embeded pointer），对前20块进行切割，每块32 Byte，给出第一块到用户，链接第二块地址到#4，后面20块不切割，作为储备，如果此时有一个64 Byte大小的申请，则将储备切割成10块64 Byte，给出第一块给用户，链接第二块到#7</li>
+</ul>
+</div></article></div></section><footer><div class="paginator"><a href="/2013/12/03/move-blog-to-github-/" class="prev">PREV</a><a href="/2013/03/02/get-pic-size-before-input/" class="next">NEXT</a></div><div class="copyright"><p>© 2015 - 2016 <a href="https://rogers140.github.io">Ruogu Liu</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-MML-AM_CHTML"></script><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-65933410-1",'auto');ga('send','pageview');</script></body></html>

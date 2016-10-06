@@ -1,0 +1,22 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> 侯捷老师C++ gp and STL笔记（二） · r140</title><meta name="description" content="侯捷老师C++ gp and STL笔记（二） - Ruogu Liu"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="short icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="https://rogers140.github.io/atom.xml" title="r140"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="http://weibo.com/sunchongsheng" target="_blank" class="nav-list-link">WEIBO</a></li><li class="nav-list-item"><a href="https://github.com/pinggod" target="_blank" class="nav-list-link">GITHUB</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><section class="container"><div class="post"><article class="post-block"><h1 class="post-title">侯捷老师C++ gp and STL笔记（二）</h1><div class="post-info">Dec 4, 2013</div><div class="post-content"><p>##第三节课##</p>
+<ul>
+<li><p>本页第一行的三个模板参数的存在，是为了应对const型的iterator，更加灵活。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">self tmp = *<span class="keyword">this</span></div></pre></td></tr></table></figure>
+</li>
+<li><p>调用了其构造函数，所以并不是类型转换错误</p>
+</li>
+<li>如果malloc失败，则从最近的pool里面切一个出来应急</li>
+<li>所以alloc的free list模型获取block先要查看pool，如果pool足够切出相应大小的块，则直接切；若不够，产生了碎片，则先将碎片挂载到对应的list下面，然后重新想操作系统申请</li>
+<li>GNU C++的alloc在进程死掉之前，不会将资源归还给操作系统，即未使用free函数，是一种霸占资源的方式</li>
+<li>deque，双向队列，分段连续，所以对于使用者来说，就是连续的；map里面最初有8根指针，如果不够，则双倍扩张map大小</li>
+<li>deque的insert操作将向元素少的那边推</li>
+<li>malloc分配之后，其区块有上下两cookie，两个cookie内容完全一致，保存了区块的大小，由于大小是16的倍数，所以长度的最后四个bit都是0，而cookie就用其最后一个字节表示该区块十分被归还，这样的话就可以判断是否能够被合并</li>
+<li>stack，queue都是用了Adapter设计模式复用了deque</li>
+</ul>
+<p>##第四节课##</p>
+<ul>
+<li>hashtable: 元素超过篮子的个数时，就rehash</li>
+<li>_STL_TEMPLATE_NULL 在编译的时候会被转换成template&lt;&gt;，即模板的特化（template specialization）</li>
+<li>hash_set是一种退化，key就是value，value就是key</li>
+</ul>
+</div></article></div></section><footer><div class="paginator"><a href="/2013/12/06/typename/" class="prev">PREV</a><a href="/2013/12/03/move-blog-to-github-/" class="next">NEXT</a></div><div class="copyright"><p>© 2015 - 2016 <a href="https://rogers140.github.io">Ruogu Liu</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-MML-AM_CHTML"></script><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-65933410-1",'auto');ga('send','pageview');</script></body></html>
